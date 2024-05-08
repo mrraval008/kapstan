@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container{
+    width: 95%;
+    height: 180px;
+    background: white;
+    margin-top: 20px;
+    overflow: scroll;
+    padding: 5px 10px;
+}
+.info_container{
+    padding: 0px 10px;
+}
+.overviewDetails{
+    display: flex;
+    font-size: 12px;
+}
+
+.overViewItem{
+    margin-right: 17px;
+}
+.overViewItemDetails{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.overviewButtonContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    align-items: center;
+}
+.overviewButton{
+    padding: 10px 20px;
+    background: #6008e4;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.cards{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 41%;
+    min-width: 300px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background: white;
+    height: 350px;
+    overflow: scroll;
+    box-shadow: 2px 2px 5px gray;
+}
+.chart_card{
+    overflow: hidden;
+    width: 55%;
+}
+.card_title{
+    margin: 10px 0px 0px 11px;
+}

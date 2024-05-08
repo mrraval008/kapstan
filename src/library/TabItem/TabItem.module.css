@@ -1,0 +1,11 @@
+.tab_container{
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+.item_title{
+    margin-left: 5px;
+}
+.active{
+    font-weight: bold;
+}

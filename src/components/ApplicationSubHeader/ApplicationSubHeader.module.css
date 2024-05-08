@@ -1,0 +1,33 @@
+.tab_items{
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+
+.right_application{
+    margin-right: 50px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.deployed_button{
+    padding: 5px;
+    background: transparent;
+    border: 2px solid #06e406;
+    color: #06e406;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+.subHeader{
+    display: flex;
+    /* width: 90%; */
+    /* height: 300px; */
+    justify-content: space-between;
+}

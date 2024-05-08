@@ -1,0 +1,73 @@
+
+.popup{
+    height: 100vh;
+    width: 45%;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    box-shadow: 2px 2px 22px gray;
+
+}
+.variable_container{
+    border: 1px solid #8080804a;
+    margin: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.variable_inner_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.variable_inner_container span{
+    margin-right: 10px;
+}
+.variable_inner_container input{
+    padding: 10px 15px;
+    /* border: navajowhite; */
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    margin-right: 10px;
+}
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+}
+.button_container button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.add_button{
+    border: none;
+    background: #6008e4 !important;
+    color: white;
+}
+
+.fileInput{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    background: #d1d1d15c;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.subtitie{
+    font-size: 10px;
+    justify-self: inherit;
+    margin-right: 44%;
+    margin-top: 5px;
+}

@@ -1,0 +1,23 @@
+.container{
+    width: 95%;
+    height: 400px;
+    background: white;
+    margin-top: 20px;
+    overflow: scroll;
+    padding: 5px 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.env_container{
+    width: 40%;
+    border: 1px solid #8080806b;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
